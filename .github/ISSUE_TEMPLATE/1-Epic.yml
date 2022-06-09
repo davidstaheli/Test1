@@ -8,8 +8,8 @@ body:
     id: relevant-links
     attributes:
       label: 'Relevant links'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         * 
         * 
