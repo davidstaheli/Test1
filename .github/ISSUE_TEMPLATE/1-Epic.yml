@@ -100,7 +100,7 @@ body:
     id: solution
     attributes:
       label: 'Solution'
-      description: Include mock-ups when possible
+      description: Define how we'll solve the customer problems and satisfy their jobs to be done. Specify any telemetry needed to track usage. Include mock-ups when possible.
       placeholder:
       value:
     validations:
@@ -110,7 +110,7 @@ body:
     id: expected-outcomes
     attributes:
       label: 'Expected outcomes'
-      description:
+      description: 'Make them measurable.'
       placeholder:
       value: |
         * 
@@ -125,12 +125,9 @@ body:
       description:
       placeholder:
       value: |
-        * **OKR key result:** 
-        * **Success metrics:** 
-          * 
-          * 
         * **Dashboard:** 
         * **Queries:** 
+        * **Service Catalog entry:** 
     validations:
       required: false
 
