@@ -23,7 +23,13 @@ body:
       description:
       placeholder:
       value: |
+        **Must ship**
         - [ ] Link
+        
+        **Should ship**
+        - [ ] Link
+        
+        **Nice to ship**
         - [ ] Link
     validations:
       required: false
@@ -38,6 +44,17 @@ body:
         * **Engineering:** 
         * **Product:** 
         * **Design:** 
+        * **DRI:** 
+    validations:
+      required: false
+
+  - type: textarea
+    id: who-is-the-customer
+    attributes:
+      label: 'Who is the customer?'
+      description: 'What are characteristics of one or more customer cohorts?'
+      placeholder:
+      value:
     validations:
       required: false
 
@@ -55,7 +72,11 @@ body:
     id: jobs-to-be-done
     attributes:
       label: 'Jobs to be done (JTBD)'
-      description: 'People "hire" products and services to get a "job" done. Jobs are functional — with emotional and social components. People buy a kettle not to boil water, but to prepare a hot beverage for consumption. Jobs are solution agnostic. Innovation becomes predictable when "needs" are defined as the metrics customers use to measure success when getting the job done. See more [here](https://uxdesign.cc/8-things-to-use-in-jobs-to-be-done-framework-for-product-development-4ae7c6f3c30b/).'
+      description: >
+        People "hire" products and services to get a "job" done. Jobs are functional — with emotional and social components.
+        People buy a kettle not to boil water, but to prepare a hot beverage for consumption. Jobs are solution agnostic.
+        Innovation becomes predictable when "needs" are defined as the metrics customers use to measure success when getting the job done.
+        See more [here](https://uxdesign.cc/8-things-to-use-in-jobs-to-be-done-framework-for-product-development-4ae7c6f3c30b/).
       placeholder:
       value: |
         * (Example) Monitor application health to prevent incidents or minimize their impact.
@@ -117,7 +138,10 @@ body:
     id: definition-of-done
     attributes:
       label: 'Definition of done'
-      description:
+      description: >
+        List clear deliverables, whether that's code, product behavior, a metric, a document, the creation of follow-up issues, or even just a comment that addresses the goal of the issue.
+        Include if another stakeholder needs to sign off before calling things done.
+        Include clean-up tasks like removing short-lived feature flags, archiving short-lived Slack channels, etc.
       placeholder:
       value: |
         - [ ] Done criteria
