@@ -87,7 +87,7 @@ body:
   - type: textarea
     id: solution
     attributes:
-      label: '🎯 Solution'
+      label: '🏛️ Solution'
       description: >
         Define how we'll solve the customer problem and satisfy the jobs to be done.
         Specify any telemetry needed to track usage. Include mock-ups when possible.
@@ -162,7 +162,7 @@ body:
   - type: textarea
     id: how-to-try-it
     attributes:
-      label: 'How to try it'
+      label: '🔬 How to try it'
       description:
       placeholder:
       value: |
@@ -173,7 +173,7 @@ body:
   - type: textarea
     id: early-adopters
     attributes:
-      label: 'Early adopters'
+      label: '🕒 Early adopters'
       description: 'List customers using the solution before its release.'
       placeholder:
       value:
@@ -183,7 +183,7 @@ body:
   - type: textarea
     id: risks
     attributes:
-      label: 'Risks'
+      label: '🪂 Risks'
       description:
       placeholder:
       value:
@@ -193,7 +193,7 @@ body:
   - type: textarea
     id: dependencies
     attributes:
-      label: 'Dependencies'
+      label: '🥚 Dependencies'
       description:
       placeholder:
       value:
@@ -203,7 +203,7 @@ body:
   - type: textarea
     id: relevant-links
     attributes:
-      label: 'Relevant information'
+      label: '📰 Relevant information'
       description:
       placeholder:
       value: |
