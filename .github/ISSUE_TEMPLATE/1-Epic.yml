@@ -34,7 +34,7 @@ body:
       label: 'Problem'
       description: 'What customer problem will this solve?'
       placeholder:
-      value: ''
+      value:
     validations:
       required: false
 
