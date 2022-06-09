@@ -11,8 +11,8 @@ body:
       description:
       placeholder:
       value: |
-        * 
-        * 
+        * **Link1:** 
+        * **Link2:** 
     validations:
       required: false
 
@@ -23,8 +23,8 @@ body:
       description:
       placeholder:
       value: |
-        - [ ] 
-        - [ ] 
+        - [ ] Link
+        - [ ] Link
     validations:
       required: false
 
@@ -82,21 +82,21 @@ body:
     id: release-information
     attributes:
       label: 'Release information'
-      description:
+      description: 🟢 - required 
       placeholder:
       value: |
-        - [ ] **Release date:** 2022-00-00
-        - [ ] [**Release issue:**](https://github.com/github/releases/issues/new/choose) 
-        - [ ] [**Roadmap-internal issue:**](https://github.com/github/roadmap-internal/issues/new/choose) 
-        - [ ] [**Public roadmap issue (generated):**](https://github.com/orgs/github/projects/4247) 
-        - [ ] [**Docs-content issue:**](https://github.com/github/docs-content/issues/new/choose) 
-        - [ ] [**Docs-internal PR:**](https://github.com/github/docs-internal/pulls) 
-        - [ ] [**Security review issue:**](https://github.com/github/security-reviews/issues/new/choose) 
-        - [ ] [**Safety review issue:**](https://github.com/github/safety-council/issues/new/choose) 
-        - [ ] [**Legal/privacy review issue:**](https://github.com/github/privacy/issues/new/choose) 
-        - [ ] [**Changelog PR:**](https://github.com/github/blog/tree/master/_changelog) 
-        - [ ] [**Release FAQ:**](https://github.com/github/releases#4-begin-writing-the-release-faq) 
+        - [ ] 🟢 **Release date:** 2022-00-00
         - [ ] **Staff-ship date and team post:** 2022-00-00
+        - [ ] 🟢 [**Release issue:**](https://github.com/github/releases/issues/new/choose) 
+        - [ ] 🟢 [**Roadmap-internal issue:**](https://github.com/github/roadmap-internal/issues/new/choose) 
+        - [ ] ⚪ [**Public roadmap issue (generated):**](https://github.com/orgs/github/projects/4247) 
+        - [ ] ⚪ [**Docs-content issue:**](https://github.com/github/docs-content/issues/new/choose) 
+        - [ ] ⚪ [**Docs-internal PR:**](https://github.com/github/docs-internal/pulls) 
+        - [ ] ⚪ [**Security review issue:**](https://github.com/github/security-reviews/issues/new/choose) 
+        - [ ] ⚪ [**Safety review issue:**](https://github.com/github/safety-council/issues/new/choose) 
+        - [ ] ⚪ [**Legal/privacy review issue:**](https://github.com/github/privacy/issues/new/choose) 
+        - [ ] 🟢 [**Changelog PR:**](https://github.com/github/blog/tree/master/_changelog) 
+        - [ ] 🟢 [**Release FAQ:**](https://github.com/github/releases#4-begin-writing-the-release-faq) 
     validations:
       required: false
 
