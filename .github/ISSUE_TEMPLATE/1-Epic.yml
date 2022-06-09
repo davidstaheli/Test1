@@ -11,8 +11,8 @@ body:
       description:
       placeholder:
       value: |
-        * **Link1:** 
-        * **Link2:** 
+        * **LinkDescription1:** 
+        * **LinkDescription2:** 
     validations:
       required: false
 
@@ -25,16 +25,6 @@ body:
       value: |
         - [ ] Link
         - [ ] Link
-    validations:
-      required: false
-
-  - type: textarea
-    id: problem
-    attributes:
-      label: 'Problem'
-      description: 'What customer problem will this solve?'
-      placeholder:
-      value:
     validations:
       required: false
 
@@ -52,12 +42,69 @@ body:
       required: false
 
   - type: textarea
-    id: measuring-success
+    id: problem
     attributes:
-      label: 'Measuring success'
+      label: 'Problem'
+      description: 'What customer problem will this solve?'
+      placeholder:
+      value:
+    validations:
+      required: false
+
+  - type: textarea
+    id: customer-evidence
+    attributes:
+      label: 'Customer evidence'
       description:
       placeholder:
       value: |
+        * 
+        * 
+    validations:
+      required: false
+
+  - type: textarea
+    id: jobs-to-be-done
+    attributes:
+      label: 'Jobs to be done'
+      description: 'People buy products and services to get a "job" done. Jobs are functional with emotional and social components. Jobs are solution agnostic. Innovation becomes predictable when "needs" are defined as the metrics customers use to measure success when getting the job done. See more [here](https://strategyn.com/jobs-to-be-done/).'
+      placeholder:
+      value: |
+        * 
+        * 
+    validations:
+      required: false
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 'Solution'
+      description: Include mock-ups when possible
+      placeholder:
+      value:
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected-outcomes
+    attributes:
+      label: 'Expected outcomes'
+      description:
+      placeholder:
+      value: |
+        * 
+        * 
+    validations:
+      required: false
+
+  - type: textarea
+    id: metrics
+    attributes:
+      label: 'Metrics'
+      description:
+      placeholder:
+      value: |
+        * **OKR key result:** 
         * **Success metrics:** 
           * 
           * 
@@ -86,7 +133,7 @@ body:
       placeholder:
       value: |
         - [ ] 🟢 **Release date:** 2022-00-00
-        - [ ] **Staff-ship date and team post:** 2022-00-00
+        - [ ] ⚪ **Staff-ship date and team post:** 2022-00-00
         - [ ] 🟢 [**Release issue:**](https://github.com/github/releases/issues/new/choose) 
         - [ ] 🟢 [**Roadmap-internal issue:**](https://github.com/github/roadmap-internal/issues/new/choose) 
         - [ ] ⚪ [**Public roadmap issue (generated):**](https://github.com/orgs/github/projects/4247) 
@@ -108,5 +155,25 @@ body:
       placeholder:
       value: |
         * [**Feature flags:**](https://admin.github.com/devtools/feature_flags) 
+    validations:
+      required: false
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: 'Risks'
+      description:
+      placeholder:
+      value:
+    validations:
+      required: false
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: 'Dependencies'
+      description:
+      placeholder:
+      value:
     validations:
       required: false
