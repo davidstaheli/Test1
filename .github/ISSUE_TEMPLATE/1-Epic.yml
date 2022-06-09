@@ -1,18 +1,16 @@
 name:  '👑 Epic'
 title: '👑 Title'
-description: 'Three to six weeks of work for a squad'
+description: 'Four to six weeks of work composed of multiple features.'
 labels: ['epic']
 assignees: []
 body:
   - type: textarea
-    id: relevant-links
+    id: problem
     attributes:
-      label: 'Relevant links'
-      description:
+      label: 'Problem'
+      description: 'What customer problem is to be solved?'
       placeholder:
-      value: |
-        * **LinkDescription1:** 
-        * **LinkDescription2:** 
+      value:
     validations:
       required: false
 
@@ -59,16 +57,6 @@ body:
       required: false
 
   - type: textarea
-    id: problem
-    attributes:
-      label: 'Problem'
-      description: 'What customer problem will this solve?'
-      placeholder:
-      value:
-    validations:
-      required: false
-
-  - type: textarea
     id: jobs-to-be-done
     attributes:
       label: 'Jobs to be done (JTBD)'
@@ -100,7 +88,7 @@ body:
     id: solution
     attributes:
       label: 'Solution'
-      description: Define how we'll solve the customer problems and satisfy their jobs to be done. Specify any telemetry needed to track usage. Include mock-ups when possible.
+      description: Define how we'll solve the customer problem and satisfy the jobs to be done. Specify any telemetry needed to track usage. Include mock-ups when possible.
       placeholder:
       value:
     validations:
@@ -196,5 +184,17 @@ body:
       description:
       placeholder:
       value:
+    validations:
+      required: false
+
+  - type: textarea
+    id: relevant-links
+    attributes:
+      label: 'Relevant information'
+      description:
+      placeholder:
+      value: |
+        * **LinkDescription1:** 
+        * **LinkDescription2:** 
     validations:
       required: false
