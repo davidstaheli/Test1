@@ -7,7 +7,7 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: 'Problem'
+      label: '😩 Problem'
       description: 'What customer problem is to be solved?'
       placeholder:
       value:
@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: features
     attributes:
-      label: 'Features'
+      label: '💜 Features'
       description:
       placeholder:
       value: |
@@ -33,9 +33,9 @@ body:
       required: false
 
   - type: textarea
-    id: people
+    id: responsible-people
     attributes:
-      label: 'People'
+      label: '🪑 Responsible people'
       description:
       placeholder:
       value: |
@@ -49,7 +49,7 @@ body:
   - type: textarea
     id: who-is-the-customer
     attributes:
-      label: 'Who is the customer?'
+      label: '🙋 Who is the customer?'
       description: 'What are characteristics of one or more customer cohorts?'
       placeholder:
       value:
@@ -59,7 +59,7 @@ body:
   - type: textarea
     id: jobs-to-be-done
     attributes:
-      label: 'Jobs to be done (JTBD)'
+      label: '🪚 Jobs to be done (JTBD)'
       description: >
         People "hire" products and services to get a "job" done. Jobs are functional — with emotional and social components.
         People buy a kettle not to boil water, but to prepare a hot beverage for consumption. Jobs are solution agnostic.
@@ -75,7 +75,7 @@ body:
   - type: textarea
     id: customer-evidence
     attributes:
-      label: 'Customer evidence and JTBD validation'
+      label: '🕵️ Customer evidence and JTBD validation'
       description:
       placeholder:
       value: |
@@ -87,7 +87,7 @@ body:
   - type: textarea
     id: solution
     attributes:
-      label: 'Solution'
+      label: '🎯 Solution'
       description: >
         Define how we'll solve the customer problem and satisfy the jobs to be done.
         Specify any telemetry needed to track usage. Include mock-ups when possible.
@@ -99,7 +99,7 @@ body:
   - type: textarea
     id: expected-outcomes
     attributes:
-      label: 'Expected outcomes'
+      label: '📊 Expected outcomes'
       description: 'Make them measurable.'
       placeholder:
       value: |
@@ -111,7 +111,7 @@ body:
   - type: textarea
     id: metrics
     attributes:
-      label: 'Metrics'
+      label: '📈 Metrics'
       description:
       placeholder:
       value: |
@@ -125,7 +125,7 @@ body:
   - type: textarea
     id: definition-of-done
     attributes:
-      label: 'Definition of done'
+      label: '🎯 Definition of done'
       description: >
         List clear deliverables, whether that's code, product behavior, a metric, a document, the creation of follow-up issues, or even just a comment that addresses the goal of the issue.
         Include if another stakeholder needs to sign off before calling things done.
@@ -140,7 +140,7 @@ body:
   - type: textarea
     id: release-information
     attributes:
-      label: 'Release information'
+      label: '📅 Release information'
       description: 🟢 - required 
       placeholder:
       value: |
