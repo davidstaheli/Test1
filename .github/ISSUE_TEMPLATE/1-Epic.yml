@@ -173,7 +173,7 @@ body:
   - type: textarea
     id: early-adopters
     attributes:
-      label: '🕒 Early adopters'
+      label: '🥼 Early adopters'
       description: 'List customers using the solution before its release.'
       placeholder:
       value:
