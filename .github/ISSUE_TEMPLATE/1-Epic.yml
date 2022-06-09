@@ -1,0 +1,112 @@
+name:  '👑 Epic'
+title: '👑 Title'
+description: 'Three to six weeks of work for a squad'
+labels: ['epic']
+assignees: ''
+body:
+  - type: textarea
+    id: relevant-links
+    attributes:
+      label: 'Relevant links'
+      description: ''
+      placeholder: ''
+      value: |
+        * 
+        * 
+    validations:
+      required: false
+
+  - type: textarea
+    id: child-issues
+    attributes:
+      label: 'Child issues'
+      description: ''
+      placeholder: ''
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 'Problem'
+      description: 'What customer problem will this solve?'
+      placeholder: ''
+      value: ''
+    validations:
+      required: false
+
+  - type: textarea
+    id: people
+    attributes:
+      label: 'People'
+      description: ''
+      placeholder: ''
+      value: |
+        * **Engineering:** 
+        * **Product:** 
+        * **Design:** 
+    validations:
+      required: false
+
+  - type: textarea
+    id: measuring-success
+    attributes:
+      label: 'Measuring success'
+      description: ''
+      placeholder: ''
+      value: |
+        * **Success metrics:** 
+          * 
+          * 
+        * **Dashboard:** 
+        * **Queries:** 
+    validations:
+      required: false
+
+  - type: textarea
+    id: definition-of-done
+    attributes:
+      label: 'Definition of done'
+      description: ''
+      placeholder: ''
+      value: |
+        - [ ] Done criteria
+        - [ ] Done criteria
+    validations:
+      required: false
+
+  - type: textarea
+    id: release-information
+    attributes:
+      label: 'Release information'
+      description: ''
+      placeholder: ''
+      value: |
+        - [ ] **Release date:** 2022-00-00
+        - [ ] [**Release issue:**](https://github.com/github/releases/issues/new/choose) 
+        - [ ] [**Roadmap-internal issue:**](https://github.com/github/roadmap-internal/issues/new/choose) 
+        - [ ] [**Public roadmap issue (generated):**](https://github.com/orgs/github/projects/4247) 
+        - [ ] [**Docs-content issue:**](https://github.com/github/docs-content/issues/new/choose) 
+        - [ ] [**Docs-internal PR:**](https://github.com/github/docs-internal/pulls) 
+        - [ ] [**Security review issue:**](https://github.com/github/security-reviews/issues/new/choose) 
+        - [ ] [**Safety review issue:**](https://github.com/github/safety-council/issues/new/choose) 
+        - [ ] [**Legal/privacy review issue:**](https://github.com/github/privacy/issues/new/choose) 
+        - [ ] [**Changelog PR:**](https://github.com/github/blog/tree/master/_changelog) 
+        - [ ] [**Release FAQ:**](https://github.com/github/releases#4-begin-writing-the-release-faq) 
+        - [ ] **Staff-ship date and team post:** 2022-00-00
+    validations:
+      required: false
+
+  - type: textarea
+    id: how-to-try-it
+    attributes:
+      label: 'How to try it'
+      description: ''
+      placeholder: ''
+      value: |
+        * [**Feature flags:**](https://admin.github.com/devtools/feature_flags) 
+    validations:
+      required: false
