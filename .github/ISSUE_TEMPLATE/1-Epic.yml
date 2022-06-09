@@ -52,22 +52,22 @@ body:
       required: false
 
   - type: textarea
-    id: customer-evidence
+    id: jobs-to-be-done
     attributes:
-      label: 'Customer evidence'
-      description:
+      label: 'Jobs to be done (JTBD)'
+      description: 'People "hire" products and services to get a "job" done. Jobs are functional — with emotional and social components. People buy a kettle not to boil water, but to prepare a hot beverage for consumption. Jobs are solution agnostic. Innovation becomes predictable when "needs" are defined as the metrics customers use to measure success when getting the job done. See more [here](https://uxdesign.cc/8-things-to-use-in-jobs-to-be-done-framework-for-product-development-4ae7c6f3c30b/).'
       placeholder:
       value: |
-        * 
-        * 
+        * Example: Prevent or quickly mitigate live-site incidents to minimize their impact and keep engineers, stakeholders, and end users happy.
+        * Example: Monitor application health to prevent incidents or minimize their impact.
     validations:
       required: false
 
   - type: textarea
-    id: jobs-to-be-done
+    id: customer-evidence
     attributes:
-      label: 'Jobs to be done'
-      description: 'People buy products and services to get a "job" done. Jobs are functional with emotional and social components. Jobs are solution agnostic. Innovation becomes predictable when "needs" are defined as the metrics customers use to measure success when getting the job done. See more [here](https://strategyn.com/jobs-to-be-done/).'
+      label: 'Customer evidence and JTBD validation'
+      description:
       placeholder:
       value: |
         * 
