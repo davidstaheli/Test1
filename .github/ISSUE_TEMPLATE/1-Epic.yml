@@ -115,10 +115,10 @@ body:
       description:
       placeholder:
       value: |
-        * **Datadog dashboard:** 
-        * **Looker dashboard:** 
-        * **Queries:** 
-        * **Service Catalog entry:** 
+        * [**Datadog dashboard:**](https://app.datadoghq.com/dashboard/lists) 
+        * [**Looker dashboard:**](https://looker.githubapp.com/dashboards/1194) 
+        * [**Queries:**](https://data.githubapp.com/) 
+        * [**Service Catalog entry:**](https://catalog.githubapp.com/services) 
     validations:
       required: false
 
