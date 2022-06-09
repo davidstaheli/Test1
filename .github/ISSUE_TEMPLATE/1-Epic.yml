@@ -2,7 +2,7 @@ name:  '👑 Epic'
 title: '👑 Title'
 description: 'Three to six weeks of work for a squad'
 labels: ['epic']
-assignees: ''
+assignees: []
 body:
   - type: textarea
     id: relevant-links
@@ -20,8 +20,8 @@ body:
     id: child-issues
     attributes:
       label: 'Child issues'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         - [ ] 
         - [ ] 
@@ -33,7 +33,7 @@ body:
     attributes:
       label: 'Problem'
       description: 'What customer problem will this solve?'
-      placeholder: ''
+      placeholder:
       value: ''
     validations:
       required: false
@@ -42,8 +42,8 @@ body:
     id: people
     attributes:
       label: 'People'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         * **Engineering:** 
         * **Product:** 
@@ -55,8 +55,8 @@ body:
     id: measuring-success
     attributes:
       label: 'Measuring success'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         * **Success metrics:** 
           * 
@@ -70,8 +70,8 @@ body:
     id: definition-of-done
     attributes:
       label: 'Definition of done'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         - [ ] Done criteria
         - [ ] Done criteria
@@ -82,8 +82,8 @@ body:
     id: release-information
     attributes:
       label: 'Release information'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         - [ ] **Release date:** 2022-00-00
         - [ ] [**Release issue:**](https://github.com/github/releases/issues/new/choose) 
@@ -104,8 +104,8 @@ body:
     id: how-to-try-it
     attributes:
       label: 'How to try it'
-      description: ''
-      placeholder: ''
+      description:
+      placeholder:
       value: |
         * [**Feature flags:**](https://admin.github.com/devtools/feature_flags) 
     validations:
