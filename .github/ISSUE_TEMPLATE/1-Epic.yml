@@ -15,9 +15,9 @@ body:
       required: false
 
   - type: textarea
-    id: child-issues
+    id: features
     attributes:
-      label: 'Child issues'
+      label: 'Features'
       description:
       placeholder:
       value: |
@@ -67,8 +67,8 @@ body:
         See more [here](https://uxdesign.cc/8-things-to-use-in-jobs-to-be-done-framework-for-product-development-4ae7c6f3c30b/).
       placeholder:
       value: |
-        * (Example) Monitor application health to prevent incidents or minimize their impact.
-        * 
+        * (Example) Help me stay awake and occupied while I make my morning commute more fun.
+        * (Example) Monitor application health to prevent incidents or minimize their impact, to keep engineers and end users happy.
     validations:
       required: false
 
