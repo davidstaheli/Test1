@@ -88,7 +88,9 @@ body:
     id: solution
     attributes:
       label: 'Solution'
-      description: Define how we'll solve the customer problem and satisfy the jobs to be done. Specify any telemetry needed to track usage. Include mock-ups when possible.
+      description: >
+        Define how we'll solve the customer problem and satisfy the jobs to be done.
+        Specify any telemetry needed to track usage. Include mock-ups when possible.
       placeholder:
       value:
     validations:
@@ -113,7 +115,8 @@ body:
       description:
       placeholder:
       value: |
-        * **Dashboard:** 
+        * **Datadog dashboard:** 
+        * **Looker dashboard:** 
         * **Queries:** 
         * **Service Catalog entry:** 
     validations:
@@ -164,6 +167,16 @@ body:
       placeholder:
       value: |
         * [**Feature flags:**](https://admin.github.com/devtools/feature_flags) 
+    validations:
+      required: false
+
+  - type: textarea
+    id: early-adopters
+    attributes:
+      label: 'Early adopters'
+      description: 'List customers using the solution before its release.'
+      placeholder:
+      value:
     validations:
       required: false
 
